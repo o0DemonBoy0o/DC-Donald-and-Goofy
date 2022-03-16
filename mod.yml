@@ -1,0 +1,176 @@
+title: DC Donald & Goofy
+description: Replaces Donald and Goofy's default outfits with their Mage and Knight outfits from KH1.
+assets:
+#Donald
+- name: obj/P_EX020.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/Donald_KH1.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/Donald_KH1.tim
+- name: obj/P_EX020_RTN.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/Donald_KH1.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/Donald_KH1.tim
+- name: obj/P_EX020_NOBG_RTN.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/Donald_KH1.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/Donald_KH1.tim
+- name: obj/P_EX020_WM.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/Donald_KH1.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/Donald_KH1.tim
+#Goofy
+- name: obj/P_EX030.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/Goofy_KH1.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/Goofy_KH1.tim
+- name: obj/P_EX030_RTN.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/Goofy_KH1.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/Goofy_KH1.tim
+- name: obj/P_EX030_NOBG_RTN.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/Goofy_KH1.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/Goofy_KH1.tim
+- name: obj/P_EX030_WM.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/Goofy_KH1.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/Goofy_KH1.tim
+#remastered textures (for PC)
+#Donald
+- name: remastered/obj/P_EX020.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX020_RTN.mdlx/-0.dds
+  - name: remastered/obj/P_EX020_NOBG_RTN.mdlx/-0.dds
+  - name: remastered/obj/P_EX020_WM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/P_EX020_DC.mdlx/-0.dds
+- name: remastered/obj/P_EX020.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/P_EX020_RTN.mdlx/-1.dds
+  - name: remastered/obj/P_EX020_NOBG_RTN.mdlx/-1.dds
+  - name: remastered/obj/P_EX020_WM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/P_EX020_DC.mdlx/-1.dds
+- name: remastered/obj/P_EX020.mdlx/-2.dds
+  multi:
+  - name: remastered/obj/P_EX020_RTN.mdlx/-2.dds
+  - name: remastered/obj/P_EX020_NOBG_RTN.mdlx/-2.dds
+  - name: remastered/obj/P_EX020_WM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/P_EX020_DC.mdlx/-2.dds
+- name: remastered/obj/P_EX020.mdlx/-3.dds
+  multi:
+  - name: remastered/obj/P_EX020_RTN.mdlx/-3.dds
+  - name: remastered/obj/P_EX020_NOBG_RTN.mdlx/-3.dds
+  - name: remastered/obj/P_EX020_WM.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/P_EX020_DC.mdlx/-3.dds
+#Goofy
+- name: remastered/obj/P_EX030.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX030_RTN.mdlx/-0.dds
+  - name: remastered/obj/P_EX030_NOBG_RTN.mdlx/-0.dds
+  - name: remastered/obj/P_EX030_WM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/P_EX030_DC.mdlx/-0.dds
+- name: remastered/obj/P_EX030.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/P_EX030_RTN.mdlx/-1.dds
+  - name: remastered/obj/P_EX030_NOBG_RTN.mdlx/-1.dds
+  - name: remastered/obj/P_EX030_WM.mdlx/-1.dds
+  method: copy
+  source:
+  - name: remastered/P_EX030_DC.mdlx/-1.dds
+- name: remastered/obj/P_EX030.mdlx/-2.dds
+  multi:
+  - name: remastered/obj/P_EX030_RTN.mdlx/-2.dds
+  - name: remastered/obj/P_EX030_NOBG_RTN.mdlx/-2.dds
+  - name: remastered/obj/P_EX030_WM.mdlx/-2.dds
+  method: copy
+  source:
+  - name: remastered/P_EX030_DC.mdlx/-2.dds
+- name: remastered/obj/P_EX030.mdlx/-3.dds
+  multi:
+  - name: remastered/obj/P_EX030_RTN.mdlx/-3.dds
+  - name: remastered/obj/P_EX030_NOBG_RTN.mdlx/-3.dds
+  - name: remastered/obj/P_EX030_WM.mdlx/-3.dds
+  method: copy
+  source:
+  - name: remastered/P_EX030_DC.mdlx/-3.dds
